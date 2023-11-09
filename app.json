@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Easy Notes",
+    "slug": "easy_notes",
+    "version": "1.1.6",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0E0E22"
+    },
+    "update": {
+      "fallbackToCacheTimeout": 16
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "buildNumber": "1.1.6",
+      "supportsTablet": true
+    },
+    "android": {
+      "versionCode": 16,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.rony9843.easy_notes"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "db2127a9-851c-4bb0-b7fc-1e4412b2e8d9"
+      }
+    }
+  }
+}
